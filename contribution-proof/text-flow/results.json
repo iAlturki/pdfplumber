@@ -1,0 +1,124 @@
+{
+  "author": "iAlturki",
+  "input": "Synthetic Courier text ALPHA BETA, rotated 90 degrees clockwise",
+  "input_sha256": "97858647231a3a681d7a76d0c2b901b3da42966e4672ec5ba24f4cbe704d1268",
+  "original": {
+    "label": "original",
+    "source_commit": "2fcbe6a6264201e9ae3e661c01c39b4111eb9af0",
+    "pdfplumber_version": "0.11.10",
+    "arguments": {
+      "use_text_flow": true
+    },
+    "words": [
+      {
+        "text": "A",
+        "x0": 96.12,
+        "top": 35.0,
+        "x1": 116.12,
+        "bottom": 47.0,
+        "direction": "ttb"
+      },
+      {
+        "text": "L",
+        "x0": 96.12,
+        "top": 47.0,
+        "x1": 116.12,
+        "bottom": 59.0,
+        "direction": "ttb"
+      },
+      {
+        "text": "P",
+        "x0": 96.12,
+        "top": 59.0,
+        "x1": 116.12,
+        "bottom": 71.0,
+        "direction": "ttb"
+      },
+      {
+        "text": "H",
+        "x0": 96.12,
+        "top": 71.0,
+        "x1": 116.12,
+        "bottom": 83.0,
+        "direction": "ttb"
+      },
+      {
+        "text": "A",
+        "x0": 96.12,
+        "top": 83.0,
+        "x1": 116.12,
+        "bottom": 95.0,
+        "direction": "ttb"
+      },
+      {
+        "text": "B",
+        "x0": 96.12,
+        "top": 107.0,
+        "x1": 116.12,
+        "bottom": 119.0,
+        "direction": "ttb"
+      },
+      {
+        "text": "E",
+        "x0": 96.12,
+        "top": 119.0,
+        "x1": 116.12,
+        "bottom": 131.0,
+        "direction": "ttb"
+      },
+      {
+        "text": "T",
+        "x0": 96.12,
+        "top": 131.0,
+        "x1": 116.12,
+        "bottom": 143.0,
+        "direction": "ttb"
+      },
+      {
+        "text": "A",
+        "x0": 96.12,
+        "top": 143.0,
+        "x1": 116.12,
+        "bottom": 155.0,
+        "direction": "ttb"
+      }
+    ]
+  },
+  "fixed": {
+    "label": "fixed",
+    "source_commit": "879354af70fe4ce131b3fe0f94a87c55398228d2",
+    "pdfplumber_version": "0.11.10",
+    "arguments": {
+      "use_text_flow": true
+    },
+    "words": [
+      {
+        "text": "ALPHA",
+        "x0": 96.12,
+        "top": 35.0,
+        "x1": 116.12,
+        "bottom": 95.0,
+        "direction": "ttb"
+      },
+      {
+        "text": "BETA",
+        "x0": 96.12,
+        "top": 107.0,
+        "x1": 116.12,
+        "bottom": 155.0,
+        "direction": "ttb"
+      }
+    ]
+  },
+  "validation": {
+    "platform": "Linux, CPython 3.12.3",
+    "original_full_suite": "173 passed; 2 new regressions failed",
+    "fixed_full_suite": "175 passed; no skips",
+    "checks": [
+      "Flake8",
+      "strict mypy",
+      "Black",
+      "isort"
+    ]
+  }
+}
